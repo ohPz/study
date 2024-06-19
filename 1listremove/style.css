@@ -17,16 +17,16 @@ input {
   padding: 12px 20px;
   display: block;
   margin: auto;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 input[type="text"] {
-  transition: width 0.4s ease-in-out;
+  /* transition: width 0.4s ease-in-out; */
 }
 input[type="text"]:focus {
   width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
   margin: auto;
   border: 1px solid grey;
   /* background-color: lightyellow; */
