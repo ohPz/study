@@ -1,0 +1,19 @@
+{
+  "name": "datetodo",
+  "version": "0.1.0-beta.2",
+  "description": "js study",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "js"
+  ],
+  "author": "soso",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {}
+}

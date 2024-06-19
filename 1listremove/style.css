@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  /*display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background: #595db8;
+  border-radius: 7px;
+  padding: 30px 25px 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*Style input box*/
+input {
+  padding: 12px 20px;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+input[type="text"] {
+  transition: width 0.4s ease-in-out;
+}
+input[type="text"]:focus {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  border: 1px solid grey;
+  /* background-color: lightyellow; */
+}
+
+/* Style the list (remove margins and bullets, etc) */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items */
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+/* Add a light grey background color on hover */
+ul li:hover {
+  background-color: #eee;
+}
+
+/* Style the close button (span) */
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+  background: #bbb;
+}
+
+#closeAll {
+  border-radius: 7px;
+  padding: 1px 8px;
+  top: 8%;
+  right: 1%;
+  transform: translate(0%, -30%);
+}
+#closeAll:hover {
+  background: lightblue;
+}
